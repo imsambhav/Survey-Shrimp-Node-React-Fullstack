@@ -8,6 +8,7 @@ class Header extends Component {
     switch (this.props.auth) {
       case null:
         return;
+
       case false:
         return (
           <li>
@@ -16,6 +17,7 @@ class Header extends Component {
             </a>
           </li>
         );
+
       default:
         return [
           <li key="1">
@@ -24,6 +26,7 @@ class Header extends Component {
           <li key="3" style={{ margin: '0 10px' }}>
             Credits: {this.props.auth.credits}
           </li>,
+          <li key="5">{this.props.auth.gName}</li>,
           <li key="4" style={{ margin: '5px 2px' }}>
             <img src={this.props.auth.gImage} />
           </li>,
