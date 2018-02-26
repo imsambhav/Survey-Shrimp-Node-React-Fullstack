@@ -10,6 +10,7 @@ User Story:
 - Create a new campaign and provide their customer's email ids and send mass survey emails 
 - Collect data of user interaction of the emails like number of likes dislikes or email opened with time stamp. 
 
-![Alt text](/2.jpeg?raw=true "Adding a Campaign")
+Adding a Campaign
+![ScreenShot](https://github.com/imsambhav/Survey-Shrimp-Node-React-Fullstack)
 
 ![Alt text](/3.jpeg?raw=true "Dashboard of User")
