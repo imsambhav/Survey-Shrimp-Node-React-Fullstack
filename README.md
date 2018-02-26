@@ -11,6 +11,7 @@ User Story:
 - Collect data of user interaction of the emails like number of likes dislikes or email opened with time stamp. 
 
 Adding a Campaign
-![ScreenShot](https://github.com/imsambhav/Survey-Shrimp-Node-React-Fullstack)
+![2](https://user-images.githubusercontent.com/15637153/36697589-5ea699b0-1afc-11e8-95cc-204794d74b2b.JPG)
 
-![Alt text](/3.jpeg?raw=true "Dashboard of User")
+Dashboard of User
+![3](https://user-images.githubusercontent.com/15637153/36697592-5eebab0e-1afc-11e8-9f97-4bd1e35f57e2.JPG)
