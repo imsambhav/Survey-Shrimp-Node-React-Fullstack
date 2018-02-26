@@ -25,8 +25,6 @@ passport.use(
       // this is relative path for dev & prod thats why http and https error
     },
     async (accessToken, refreshToken, profile, done) => {
-      console.log('Google data: ', profile.photos[0].value);
-      console.log('Google data: ', profile.displayName);
       const existingUser = await User.findOne({
         googleId: profile.id,
         gName: profile.displayName,

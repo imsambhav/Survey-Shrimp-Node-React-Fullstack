@@ -7,6 +7,8 @@ import reduxThunk from 'redux-thunk';
 
 import App from './components/App';
 import reducers from './reducers';
+import axios from 'axios';
+window.axios = axios;
 
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
@@ -17,5 +19,5 @@ ReactDOM.render(
   document.querySelector('#root')
 );
 
-// console.log('Stripe key: ', process.env.REACT_APP_STRIPE_KEY);
-// console.log('Environment is : ', process.env.NODE_ENV);
+// const survey = { title: 't', subject: 's', body: 'b', recipients: 'imsambhav@gmail.com' };
+// axios.post('/api/surveys', survey);
